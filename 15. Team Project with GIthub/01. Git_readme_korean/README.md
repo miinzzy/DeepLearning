@@ -20,6 +20,8 @@ gif로 움짤 올리기
 
 
 
+
+
 깃헙의 LFS를 설명해 놓은 동영상을 링크 
 
 ``` [![Video Label](http://img.youtube.com/vi/uLR1RNqJ1Mw/0.jpg)](https://youtu.be/uLR1RNqJ1Mw?t=0s) ```
