@@ -10,7 +10,7 @@
 
 ## 실행 방법
 
-1. **Road Following**: 원본 Jetbot 
+1. **Road Following**: [Jetbot Repository]
 
 
 
