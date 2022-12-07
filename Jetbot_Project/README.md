@@ -10,7 +10,7 @@
 
 ## 실행 방법
 
-1. **Road Following**: [Jetbot Repository]
+1. **Road Following**: [Jetbot Repository](https://github.com/NVIDIA-AI-IOT/jetbot/tree/master/notebooks/road_following)
 
 
 
