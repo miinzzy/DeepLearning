@@ -32,7 +32,6 @@ collision_avoidance_model.classifier = torch.nn.Linear(collision_avoidance_model
 collision_avoidance_model.load_state_dict(torch.load('best_model_1207.pth'))
 ```
 
-_더 많은 예제와 사용법은 [Wiki][wiki]를 참고하세요._
 
 ## 개발 환경 설정
 
@@ -41,16 +40,6 @@ _더 많은 예제와 사용법은 [Wiki][wiki]를 참고하세요._
 ```sh
 make install
 npm test
-```
-
-## 코드블럭 설명
-
-```c
-//```뒤에 자신이 원하는 언어 (생략 가능)
-#include <stdio.h>
-int main(void) {
-  printf("Hello World!");
-}
 ```
 
 
