@@ -10,16 +10,6 @@
 
 
 
-
-
-
-깃헙의 LFS를 설명해 놓은 동영상을 링크 
-
-``` [![Video Label](http://img.youtube.com/vi/uLR1RNqJ1Mw/0.jpg)](https://youtu.be/uLR1RNqJ1Mw?t=0s) ```
-[![Video Label](http://img.youtube.com/vi/E2rpPNNWpo4/0.jpg)](https://youtu.be/E2rpPNNWpo4) 
-
-
-
 ![](../header.png)
 
 ## 설치 방법
