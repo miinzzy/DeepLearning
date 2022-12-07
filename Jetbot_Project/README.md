@@ -10,13 +10,11 @@
 
 ## 실행 방법
 
-OS X & 리눅스:
+Road Following:
 
-```sh
-npm install my-crazy-module --save
-```
 
-윈도우:
+
+Collision Avoidance:
 
 ```sh
 edit autoexec.bat
