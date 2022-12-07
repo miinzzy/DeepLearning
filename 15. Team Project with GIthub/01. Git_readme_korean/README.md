@@ -1,5 +1,5 @@
 # 시각장애인을 위한 도로 안내 로봇
-> 기존에는 시각장애인이 안내견을 통해 길을 안내 받았다면 로봇을 통해 길을 안내 받을 수 있다고 생각.
+> 로봇을 학습시켜 안내견의 역할을 대신하도록 함
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
