@@ -9,8 +9,6 @@
 ## 구체적인 아이디어
 - 현재 안내견은 보통 시각장애인의 왼편에 서기 때문에 Jetbot의 경우에도 시각장애인의 왼편에 있다고 생각하고 장애물을 마주칠 경우 항상 오른쪽으로 피하도록 구현
 
-[충돌회피gif](https://github.com/miinzzy/DeepLearning/files/10176933/gif)
-
 ## 실행 방법
 
 1. **Road Following**: [Jetbot Repository](https://github.com/NVIDIA-AI-IOT/jetbot/tree/master/notebooks/road_following)에 제공된 코드를 사용하여 데이터셋을 수집하고 Road Follow 모델을 훈련 및 최적화합니다 .
@@ -34,68 +32,6 @@ collision_avoidance_model.classifier = torch.nn.Linear(collision_avoidance_model
 collision_avoidance_model.load_state_dict(torch.load('best_model_1207.pth'))
 ```
 
-
-## 개발 환경 설정
-
-모든 개발 의존성 설치 방법과 자동 테스트 슈트 실행 방법을 운영체제 별로 작성합니다.
-
-```sh
-make install
-npm test
-```
-
-
-## 업데이트 내역
-
-* 0.2.1
-    * 수정: 문서 업데이트 (모듈 코드 동일)
-* 0.2.0
-    * 수정: `setDefaultXYZ()` 메서드 제거
-    * 추가: `init()` 메서드 추가
-* 0.1.1
-    * 버그 수정: `baz()` 메서드 호출 시 부팅되지 않는 현상 (@컨트리뷰터 감사합니다!)
-* 0.1.0
-    * 첫 출시
-    * 수정: `foo()` 메서드 네이밍을 `bar()`로 수정
-* 0.0.1
-    * 작업 진행 중
-
-## 정보
-
-이름 – [@트위터 주소](https://twitter.com/dbader_org) – 이메일주소@example.com
-
-XYZ 라이센스를 준수하며 ``LICENSE``에서 자세한 정보를 확인할 수 있습니다.
-
-[https://github.com/yourname/github-link](https://github.com/dbader/)
-
-## README 
-
-1. https://github.com/kyechan99/capsule-render
-2. https://yermi.tistory.com/entry/%EA%BF%80%ED%8C%81-Github-Readme-%EC%98%88%EC%81%98%EA%B2%8C-%EA%BE%B8%EB%AF%B8%EA%B8%B0-Readme-Header-Badge-Widget-%EB%93%B1
-
-
-## 그외의 팁
-
-취소선
-~~취소선~~
-
-
-인용글
-> 인용글 1
-> > 인용글 2
-> > > 인용글 3
-
-기울임
-*기울임 꼴*
-
-_기울임 꼴_
-
-
-굵은글씨
-
-**굵은 글씨**
-
-__굵은 글씨__
 
 <!-- Markdown link & img dfn's -->
 [npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
