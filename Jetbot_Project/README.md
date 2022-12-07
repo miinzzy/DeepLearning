@@ -12,11 +12,7 @@
 
 1. **Road Following**: [Jetbot Repository](https://github.com/NVIDIA-AI-IOT/jetbot/tree/master/notebooks/road_following)에 제공된 코드를 사용하여 데이터셋을 수집하고 Road Follow 모델을 훈련 및 최적화합니다 .
 
-2. Collision Avoidance: [Jetbot Repository](https://github.com/NVIDIA-AI-IOT/jetbot/tree/master/notebooks/road_following)에 제공된 코드를 사용하여 데이터셋을 수집하고 Collision Avoidance 모델을 훈련 및 최적화합니다 .
-
-```sh
-edit autoexec.bat
-```
+2. Collision Avoidance: [Jetbot Repository](https://github.com/NVIDIA-AI-IOT/jetbot/tree/master/notebooks/collision_avoidance)에 제공된 코드를 사용하여 데이터셋을 수집하고 Collision Avoidance 모델을 훈련 및 최적화합니다 .
 
 ## 사용 예제
 
