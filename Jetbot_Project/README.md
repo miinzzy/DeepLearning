@@ -19,6 +19,20 @@
 
 스크린 샷과 코드 예제를 통해 사용 방법을 자세히 설명합니다.
 
+```python
+//```뒤에 자신이 원하는 언어 (생략 가능)
+import torch
+import torchvision
+
+road_following_model = torchvision.models.resnet18(pretrained=False)
+road_following_model.fc = torch.nn.Linear(512,2)
+road_following_model.load_state_dict(torch.load('best_rf_model_1207.pth'))
+
+collision_avoidance_model = torchvision.models.alexnet(pretrained=False)
+collision_avoidance_model.classifier = torch.nn.Linear(collision_avoidance_model.classifier[6].in_features,2)
+collision_avoidance_model.load_state_dict(torch.load('best_model_1207.pth')) // 여기에 학습한 모델 
+```
+
 _더 많은 예제와 사용법은 [Wiki][wiki]를 참고하세요._
 
 ## 개발 환경 설정
